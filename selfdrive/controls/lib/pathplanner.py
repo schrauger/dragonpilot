@@ -68,7 +68,7 @@ class PathPlanner():
     self.dragon_auto_lc_timer = None
     self.dragon_assisted_lc_min_mph = 37
     self.dragon_auto_lc_min_mph = 60
-    self.dragon_auto_lc_delay = 2.
+    self.dragon_auto_lc_delay = 1.
     self.last_ts = 0.
 
   def setup_mpc(self):
